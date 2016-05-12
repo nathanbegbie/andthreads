@@ -1,0 +1,19 @@
+#loading-indicator {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#loading-indicator span {
+    display: block;
+    width: 10em;
+    margin: 0 auto;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    line-height: 1.4em;
+    background: silver;
+    background: rgba(192,192,192,0.75);
+    color: white;
+    border-radius: 0 0 3px 3px;
+}
